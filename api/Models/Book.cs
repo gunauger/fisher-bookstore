@@ -10,11 +10,10 @@ namespace Fisher.Bookstore.Models
         public string Isbn {get;set;}
         public DateTime PublishDate {get;set;}
         public string Publisher {get;set;}
-    }
-
-    public void ChangePublicationDate(DateTime dateTime)
-    {
-        this.PublishDate=dateTime;
+        public void ChangePublicationDate(DateTime dateTime)
+        {
+            this.PublishDate=dateTime;
+        }
     }
     
 }

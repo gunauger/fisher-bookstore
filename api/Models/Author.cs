@@ -5,15 +5,9 @@ namespace Fisher.Bookstore.Models
 {
     public class Author
     {
-        public int Id {get;set;}
-        public string Name {get;set;}
-
-        public string Bio {get;set;}
-        public List<Book> Titles {get;set;}
-
-        public static implicit operator Author(string v)
-        {
-            throw new NotImplementedException();
-        }
+        public int Id { get; set; }
+        public string Name { get; set; }
+        public string Bio { get; set; }
+        public List<Book> Titles { get; set; }
     }
 }
